@@ -1,0 +1,30 @@
+# Node
+node_modules/
+frontend/out/
+frontend/.remotion/
+*.log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets / local config
+.env
+.env.*
+
+# Source songs and generated song assets (copyrighted audio, large files)
+input/
+frontend/public/songs/*
+!frontend/public/songs/.gitkeep
+
+# Rendered videos and stray media
+*.mp4
+*.mp3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
